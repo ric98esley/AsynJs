@@ -1,0 +1,24 @@
+{
+  "name": "asynjs",
+  "version": "1.0.0",
+  "description": "trabajar con asincronismo en js",
+  "main": "sr/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ric98esley/AsynJs.git"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "ricardo.pereze.98@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ric98esley/AsynJs/issues"
+  },
+  "homepage": "https://github.com/ric98esley/AsynJs#readme"
+}
