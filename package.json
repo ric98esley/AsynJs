@@ -4,7 +4,8 @@
   "description": "trabajar con asincronismo en js",
   "main": "sr/index.js",
   "scripts": {
-    "callback": "node src/callback/index.js"
+    "callback": "node src/callback/index.js",
+    "callback:challenge": "node src/callback/challenge.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/ric98esley/AsynJs/issues"
   },
-  "homepage": "https://github.com/ric98esley/AsynJs#readme"
+  "homepage": "https://github.com/ric98esley/AsynJs#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
