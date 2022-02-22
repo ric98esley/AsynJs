@@ -30,6 +30,10 @@ fechtData(API, function(error1, data1){
             console.log(data1.info.count);
             console.log(data2.name);
             console.log(data3.dimension);
+
+            console.log(API);
+            console.log(API + data1.results[0].id); 
+            console.log(data2.origin.url); 
         });
     });
 });
